@@ -1,11 +1,7 @@
 {
-  "name": "@synthetixio/synpress-metamask",
-  "version": "0.0.13",
+  "name": "@gracefnr/synpress-metamask",
+  "version": "1.0.3",
   "homepage": "https://synpress.io",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Synthetixio/synpress.git"
-  },
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -48,8 +44,8 @@
     "types:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@synthetixio/synpress-cache": "workspace:*",
-    "@synthetixio/synpress-core": "workspace:*",
+    "@synthetixio/synpress-cache": "latest",
+    "@synthetixio/synpress-core": "latest",
     "@viem/anvil": "0.0.7",
     "fs-extra": "11.2.0",
     "zod": "3.22.4"
@@ -67,5 +63,8 @@
   },
   "peerDependencies": {
     "@playwright/test": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
