@@ -1,6 +1,6 @@
 {
-  "name": "@synthetixio/synpress",
-  "version": "4.1.1",
+  "name": "@gracefnr/synpress",
+  "version": "1.0.0",
   "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
@@ -60,5 +60,8 @@
   },
   "peerDependencies": {
     "@playwright/test": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
