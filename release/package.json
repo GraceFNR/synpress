@@ -1,13 +1,12 @@
 {
   "name": "@gracefnr/synpress",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
     "url": "https://github.com/Synthetixio/synpress.git"
   },
   "license": "MIT",
-  "type": "module",
   "exports": {
     ".": {
       "default": "./dist/index.js",
@@ -49,7 +48,9 @@
     "@gracefnr/synpress-metamask": "1.0.3",
     "@synthetixio/ethereum-wallet-mock": "latest",
     "@synthetixio/synpress-core": "latest",
-    "@synthetixio/synpress-phantom": "latest"
+    "@synthetixio/synpress-phantom": "latest",
+    "chromium-bidi": "9.1.0",
+    "playwright-core": "1.46.1"
   },
   "devDependencies": {
     "@synthetixio/synpress-tsconfig": "0.0.13",
