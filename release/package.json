@@ -45,11 +45,11 @@
     "types:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@synthetixio/ethereum-wallet-mock": "workspace:*",
-    "@synthetixio/synpress-cache": "workspace:*",
-    "@synthetixio/synpress-core": "workspace:*",
-    "@synthetixio/synpress-metamask": "workspace:*",
-    "@synthetixio/synpress-phantom": "workspace:*"
+    "@gracefnr/synpress-cache": "1.0.1",
+    "@gracefnr/synpress-metamask": "1.0.3",
+    "@synthetixio/ethereum-wallet-mock": "latest",
+    "@synthetixio/synpress-core": "latest",
+    "@synthetixio/synpress-phantom": "latest"
   },
   "devDependencies": {
     "@synthetixio/synpress-tsconfig": "0.0.13",
