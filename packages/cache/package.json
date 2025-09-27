@@ -1,6 +1,6 @@
 {
-  "name": "@synthetixio/synpress-cache",
-  "version": "0.0.13",
+  "name": "@gracefnr/synpress-cache",
+  "version": "1.0.0",
   "homepage": "https://synpress.io",
   "repository": {
     "type": "git",
